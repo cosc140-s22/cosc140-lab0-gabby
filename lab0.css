@@ -1,0 +1,74 @@
+/* PART 1 CSS*/
+
+table#part1{
+  position: relative;
+  width: 80%;
+  left: 10%;
+  background-color: #FBEEC1;
+  border-spacing: 0px;
+}
+
+caption{
+  background-color: #BC986A;
+  border: 1px solid black;
+}
+
+thead{
+  background-color: #659DBD;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/* PART 2 CSS*/
+
+table#part2{
+  position: relative;
+  width: 90%;
+  left: 5%;
+  border-spacing: 10px;
+}
+
+.button{
+  border-radius: 10%;
+  padding: 10px;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+#default{
+  border: 2px #A9A9A9 solid;
+  background-color: #FFFFFF;
+}
+
+#primary{
+  border: 2px darkslateblue solid;
+  background-color: royalblue;
+  color: white;
+}
+
+#success{
+  border: 2px darkgreen solid;
+  background-color: seagreen;
+  color: white;
+}
+
+#info{
+  border: 2px turquoise solid;
+  background-color: paleturquoise;
+}
+
+#warning{
+  border: 2px gold solid;
+  background-color: khaki; 
+}
+
+#danger{
+  border: 2px firebrick solid;
+  background-color: tomato;
+  color: white;
+}
+
+/* PART 3 CSS*/
+
