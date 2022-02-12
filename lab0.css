@@ -28,18 +28,17 @@ table#part2{
   position: relative;
   width: 90%;
   left: 5%;
-  border-spacing: 10px;
+  border-spacing: 8px;
 }
 
-.button{
+.button button{
   border-radius: 10%;
-  padding: 10px;
   font-family: Helvetica, arial, sans-serif;
+  padding: 10px;
 }
 
 #default{
   border: 2px #A9A9A9 solid;
-  background-color: #FFFFFF;
 }
 
 #primary{
@@ -72,3 +71,49 @@ table#part2{
 
 /* PART 3 CSS*/
 
+#outersection{
+  width: 80%;
+  left: 10%;
+  position: relative;
+  height: 500px;
+  background-color: gainsboro;
+}
+
+#circle{
+  border-radius: 100%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 45%;
+  background-color: lightcoral;
+}
+
+#part3title{
+  position: relative;
+  top: 35px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#part3body{
+  position: relative;
+  top: 45px;
+  background-color: white;
+  width: 60%;
+  left: 20%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#likebutton{
+  background-color: limegreen;
+  border: green solid;
+  border-radius: 20%;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  left: 45%;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
